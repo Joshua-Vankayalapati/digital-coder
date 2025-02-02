@@ -25,11 +25,7 @@
 /* setting the blog card and technology news card in one line using flex property */
 .cards{
     display: flex;
-    justify-content: space-evenly;
-}
-
-.coding-card{
-    margin-top: 2vh;
-    margin-bottom: 5vh;
-    margin-left: 85vh;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2vh;    
 }
